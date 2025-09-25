@@ -53,3 +53,7 @@ php artisan serve
 ## Learning Notes
 
 This section will be updated as I progress through the course with key learnings and important concepts.
+
+Day 1 - Sep 23, 2025: Create project and create README.md for this.
+Day 2 - Sep 24, 2025: Implement logic functionally with validation and update API routes.
+Day 3 - Sep 25, 2025: Add Ticket model, factory, migration, and update DatabaseSeeder and API routes.
