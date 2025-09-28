@@ -52,39 +52,49 @@ php artisan serve
 
 ## Learning Notes
 
+# Course Progress & Key Learnings
+
 This section will be updated as I progress through the course with key learnings and important concepts.
 
-Day 1 - Sep 23, 2025
-: Create project and create README.md for this.
+---
 
-: Set up User model, factory, migration, and update DatabaseSeeder.
+## Day 1 - Sep 23, 2025
+- Initialize project and create `README.md`.
+- Set up **User** model, factory, and migration.
+- Update `DatabaseSeeder`.
+- *That's easy enough. Let's move on.*
 
-: That's easy enough. Let's move on.
+---
 
-Day 2 - Sep 24, 2025
-: Implement logic functionally with validation and update API routes.
+## Day 2 - Sep 24, 2025
+- Implement core logic with validation.
+- Update **API routes**.
+- Add authentication with **Laravel Sanctum**.
+- Create `AuthController` with `register` and `login` methods.
+- Implement registration and login logic.
+- Apply authentication middleware to routes.
+- *That's a good start. Let's keep going.*
 
-: Add authentication with Laravel Sanctum.
+---
 
-: Create AuthController with register and login methods.
+## Day 3 - Sep 25, 2025
+- Add **Ticket** model, factory, and migration.
+- Update `DatabaseSeeder` and API routes.
+- Create `TicketController` with `index` and `store` methods.
+- Implement ticket listing and creation logic.
+- Protect ticket routes with authentication middleware.
+- Test ticket endpoints using **Postman**.
+- Document progress in `README.md`.
+- *That's a solid foundation. Let's continue building.*
 
-: Implement registration and login logic.
+---
 
-: Add authentication middleware to routes.
+## Day 4 - Sep 28, 2025
+- Implement **API versioning** for tickets.
+- Create separate controllers for each API version.
+- Update routes to use versioned controllers.
+- Test versioned API endpoints with **Postman**.
+- Document API versioning strategy in `README.md`.
 
-: That's a good start. Let's keep going.
-
-Day 3 - Sep 25, 2025
-: Add Ticket model, factory, migration, and update DatabaseSeeder and API routes.
-
-: Create TicketController with index and store methods.
-
-: Implement ticket listing and creation logic.
-
-: Add authentication middleware to ticket routes.
-
-: Test ticket endpoints with Postman.
-
-: Make sure to document everything in README.md.
-
-: That's a solid foundation. Let's continue building.
+- Authentication functionality with login and register endpoints, and update API routes.
+- *That's a significant enhancement. Let's keep improving.*
